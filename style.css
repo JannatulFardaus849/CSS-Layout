@@ -1,0 +1,124 @@
+
+
+        /* ----This is simple Flexbox -----*/
+
+        .box-content-1{
+            border: 2px solid red;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .box-content-2{
+            border: 2px solid red;
+            display: flex;
+            justify-content:flex-end;
+        }
+        .box-content-3{
+            border: 2px solid red;
+            display: flex;
+            justify-content:center;
+        }
+        .box-content-4{
+            border: 2px solid red;
+            display: flex;
+            justify-content:space-around;
+        }
+        .box-content-5{
+            border: 2px solid red;
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .box-content-6{
+            border: 2px solid red;
+            display: flex;
+            justify-content:space-between;
+        }
+
+    
+        .box-content-7{
+            border: 2px solid red;
+            display: flex;
+            justify-content:space-around;
+            align-items: flex-start;
+            height: 250px;
+        }
+
+    
+        .box-content-8{
+            border: 2px solid red;
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+            height: 250px;
+        }
+    
+        .box-content-9{
+            border: 2px solid red;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            height: 250px;
+        }
+
+        .box-content-10{
+            border: 2px solid red;
+            display: flex;
+            justify-content:flex-start;
+            flex-direction: row;
+            height: 250px;
+        }
+
+        .box-content-11{
+            border: 2px solid red;
+            display: flex;
+            justify-content:flex-start;
+            flex-direction: row-reverse;
+            height: 250px;
+        }
+
+        .box-content-12{
+            border: 2px solid red;
+            display: flex;
+            justify-content:flex-start;
+            flex-direction: column;
+            height: 250px;
+        }
+
+        .box-content-13{
+            border: 2px solid red;
+            display: flex;
+            justify-content:flex-start; 
+            flex-direction: column-reverse;
+            height: 350px;
+        }
+        .box{ 
+            border: 2px dotted  green;
+            height: 100px;
+            width: 100px;
+        }
+
+        /* -----This is simple Flexbox -------*/
+
+        .child-content-1{
+             display: flex; 
+             border: 2px solid red;
+             height: 250px;
+             flex-wrap:nowrap;
+        }
+        .child-content-2{
+            display: flex; 
+            border: 2px solid red;
+            height: 250px;
+            flex-wrap:wrap;
+       }
+       .child-content-3{
+        display: flex; 
+        border: 2px solid red;
+        height: 250px;
+        flex-wrap:wrap-reverse;
+   }
+        .child{
+            border: 2px dotted  green;
+            width: 50px;
+            height: 50px;
+        }
+  
